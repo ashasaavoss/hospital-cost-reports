@@ -199,16 +199,15 @@ hcris_rpt <- hcris_rpt |>
       prog_op_cost/prog_chg,
       NA
     ),
-    uccare_chg_harmonized = case_when(
-      fmt==96 ~ chguccare,
-      fmt==10 ~ totinitchcare-ppaychcare+nonmcbaddebt,
-      .default=NA
-    ),
-    uccare_cost_harmonized = ccr*uccare_chg_harmonized
+    # uccare_chg_harmonized = case_when(
+    #   fmt==96 ~ chguccare,
+    #   fmt==10 ~ totinitchcare-ppaychcare+nonmcbaddebt,
+    #   .default=NA
+    # ),
+    # uccare_cost_harmonized = ccr*uccare_chg_harmonized
   )
 vars$dollar_flow <- vars$dollar_flow |>
-  c("income","totcost","prog_chg",
-    "uccare_chg_harmonized","uccare_cost_harmonized"
+  c("income","totcost","prog_chg"
   )
 
 # sort the data
