@@ -46,7 +46,8 @@
       "WebFetch",
       "WebSearch",
       "Bash(unzip:*)",
-      "Bash(\"/c/Program Files/R/R-4.5.0/bin/Rscript.exe\":*)"
+      "Bash(\"/c/Program Files/R/R-4.5.0/bin/Rscript.exe\":*)",
+      "Bash(/c/Program Files/R/R-4.5.0/bin/Rscript.exe:*)"
     ]
   }
 }

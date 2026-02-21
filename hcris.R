@@ -239,8 +239,8 @@ var_label(hcris_rpt) <- list(
   income="total income (sum of netpatrev and othinc)",
   totcost="total cost (sum of opexp and othexp)",
   prog_chg="medicare inpatient program charges (routine service + ancillary)",
-  uccare_chg_harmonized="uncompensated care charges (harmonized across formats)",
-  uccare_cost_harmonized="uncompensated care costs (harmonized across formats)",
+  # uccare_chg_harmonized="uncompensated care charges (harmonized across formats)",
+  # uccare_cost_harmonized="uncompensated care costs (harmonized across formats)",
   margin="total all-payer margin i.e. profit margin (income-totcost)/income"
 )
 var_label(hcris_rpt) <- c(
