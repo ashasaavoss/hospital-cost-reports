@@ -5,7 +5,7 @@ library(tidyverse)
 library(arrow)
 
 # process cost reports from these years
-START_YEAR <- 1996
+START_YEAR <- 2019
 END_YEAR <- 2024
 
 # where is the source data?
