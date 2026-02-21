@@ -10,7 +10,7 @@ library(labelled)
 library(haven)
 
 # use cost reports from these years' data files
-START_YEAR <- 1996
+START_YEAR <- 2019
 END_YEAR <- 2024
 
 # with files from those years, we often (~50% of hospitals) don't observe
